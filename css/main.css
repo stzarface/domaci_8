@@ -1,0 +1,485 @@
+/*
+	01 general
+	02 header
+
+*/
+
+
+
+
+/*01 general*/
+*	{
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif
+    
+
+}
+
+
+body	{
+	
+    background-color: white;
+ 	margin: 0 0;
+
+ 	font-size: 14px;
+ 	font-weight: 300;
+ 	letter-spacing: .5px;
+
+
+
+}
+
+img	{
+	width: 100%;
+	height: auto;
+	
+}
+
+a	{
+	text-decoration: none;
+}
+
+ul	{
+
+}
+
+ul li	{
+	list-style-type: none;
+	display: inline-block;
+}
+
+h5, h6, p	{
+	color: #969696;
+}
+
+p	{
+	line-height: 24px;
+}
+
+h2	{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 70px;
+}
+
+.clearfix	{
+	clear: both;
+}
+
+/*02 header*/
+
+header	{
+	width: 100%;
+	height: 700px;
+
+	margin: 0;
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.header_text	{
+	position: relative;
+	max-width: 1298px;
+	top: 150px;
+	left: 50px;
+}
+
+
+
+.header_text h3	{
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-size: 65px;
+	font-weight: 700;
+	color: white;
+
+}
+
+.header_text p	{
+	font-size: 22px;
+	background-color: lightgreen;
+	padding: 10px;
+	color: white;
+	width: 30%;
+	margin-top: 0;
+}
+
+
+
+
+
+nav ul	{
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	background-color: white;
+	padding-left: 5px;
+
+}
+
+nav ul li 	{
+	padding: 20px 15px;
+}
+
+
+/*03 section*/
+
+section	{
+	background-color: green;
+	/*border: 1px solid black;*/
+
+	width: 100%;
+	/*max-width: 1349px;*/
+	height: 700px;
+	
+}
+
+/*03.01 about me*/
+
+section.about_me	{
+	padding-top: 100px;
+	
+	background-color: lightgray;
+	height: 800px;
+}
+
+.container_about_me	{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.header_about_me	{
+	padding: 10px 20px;
+}
+
+.header_about_me p	{
+	text-align: center;
+}
+
+.header_about_me p em	{
+	color: black;
+}
+
+.maincontent_about_me	{
+	width: 90%;
+	margin: 0 auto;
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+.biography img	{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	
+}
+
+.biography, .skills	{
+	display: inline-block;
+	width: 49.5%;
+	vertical-align: top;
+
+}
+
+.biography	{
+	text-align: right;
+	padding: 40px 40px;
+}
+
+.skills	{
+	text-align: left;
+	padding: 40px 20px 20px 40px; 
+
+}
+
+/*03.02 portfolio*/
+
+.portfolio	{
+	background-color: whitesmoke;
+}
+
+.header_portfolio ul	{
+	text-align: center;
+	padding-left: 0;
+	margin-bottom: 50px;
+}
+
+.header_portfolio ul li	{
+	text-transform: uppercase;
+	
+}
+
+.header_portfolio ul li a	{
+	padding: 5px 10px;
+
+}
+
+.header_portfolio ul li a:hover	{
+	color: black;
+}
+
+.image_row1	{
+	width: 70%;
+	margin: 0 auto;
+	
+	
+}
+
+.image1, .image2, .image3	{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 33%;
+}
+
+/*.maincontent_portfolio .image2	{
+	margin: 0 20px;
+}*/
+
+.maincontent_portfolio .blog_image img	{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.image_row2	{
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.image4, .image5	{
+	width: 33.33%;
+	float: left;
+	padding: 10px;
+}
+
+/*.image5	{
+	margin: 0 20px;
+}*/
+
+/*03.03 services*/
+
+.services	{
+	background-color: lightgray;
+	height: 600px;
+}
+
+.maincontent_services	{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.service	{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 70px;
+}
+
+.service .fa	{
+	font-size: 150px;
+	color: green;
+}
+
+.maincontent_services .service h6	{
+	text-transform: uppercase;
+	color: black;
+	font-size: 20px;
+	font-weight: initial;
+}
+
+
+/*03.04 project summary*/
+
+.project_summary	{
+	background-color: whitesmoke;
+	padding-top: 100px;
+	
+	height: 500px;
+}
+
+.container_project_summary	{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container_item	{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.container_item .fa	{
+	font-size: 70px;
+	color: green;
+}
+
+.container_item h3	{
+	font-size: 35px;
+
+}
+
+.container_item h6	{
+	text-transform: uppercase;
+	
+	font-size: 20px;
+	font-weight: initial;
+}
+
+
+/*03.05 blog*/
+
+.blog	{
+	background-color: lightgray;
+}
+
+.maincontent_blog	{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.blog_item	{
+	display: inline-block;
+	width: 33%;
+	padding: 0 15px;
+	vertical-align: top;
+}
+
+.blog_item a	{
+	color: black;
+}
+
+.post_main h5 a	{
+	font-size: 23px;
+	font-weight: initial;
+	line-height: 35px;
+}
+
+ .right	{
+	float: right;
+}
+
+.post_meta1	{
+	position: relative;
+	top: -25px;
+	padding: 0 10px;
+	color: white;
+}
+
+
+
+/*03.06 contact*/
+
+.contact	{
+	background-color: whitesmoke;
+}
+
+.maincontent_contact	{
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.contact_item	{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 40px;
+	padding: 10px 50px 0;
+}
+
+.contact_item .fa	{
+	font-size: 55px;
+	color: green;
+}
+
+.contact_item h6	{
+	text-transform: uppercase;
+	color: black;
+	font-weight: initial;
+	font-size: 20px;
+	margin: 10px 0 5px;
+}
+
+.contact_item span	{
+	text-transform: uppercase;
+	color: #969696;
+	font-weight: initial;
+	font-size: 15px;
+}
+
+form	{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.input	{
+	width: 100%;
+	margin-bottom: 40px;
+}
+input[type=text], input[type=email]	{
+	display: inline-block;
+	width: 49.5%;
+
+	padding: 10px;
+	height: 60px;
+}
+
+textarea	{
+	width: 80%;
+	padding: 10px;
+} 
+
+input[type=submit]	{
+	background-color: lightgreen;
+	padding: 20px 30px;
+
+}
+ 
+
+
+
+
+
+/*footer*/
+
+footer	{
+	background-color: lightgray;
+	height: 150px;
+
+}
+
+
+.footer_main	{
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 50px;
+
+}
+.copyright	{
+	float: left;
+}
+
+.footer_list	{
+	float: right;
+
+}
+
+.footer_list ul	{
+	padding-left: 0;
+}
+
+.footer_list .fa	{
+	color: black;
+}
+
+.footer_list ul	li {
+	padding: 5px;
+}
+
